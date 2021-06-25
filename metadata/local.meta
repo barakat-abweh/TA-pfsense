@@ -271,3 +271,14 @@ modtime = 1624404131.959404000
 [props/pfsense%3Adhcpd/EXTRACT-ipv6_dhcp_rebind]
 version = 8.2.0
 modtime = 1624404264.485335000
+
+[props/pfsense%3Adhcpd/EXTRACT-ipv4_dhcp]
+version = 8.2.0
+modtime = 1624405481.042623000
+
+[props/pfsense%3Adhcpd/EVAL-vendor_product]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 8.2.0
+modtime = 1624405873.524959000

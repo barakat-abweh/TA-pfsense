@@ -1,10 +1,10 @@
 # Technology Add-on for pfsense
-# modified version of Gmbh TA-pfsense
-**Author:** Barakat Abweh
+
+**Author:** Datapunctum GmbH
 
 **Version:**
 
-* 1.0
+* 2.5.0
 
 **Supported products:**
 
@@ -18,9 +18,6 @@
 
 * Authentication
 * Network Traffic
-* Network Session
-* Intrusion Detection
-* Network Resolution
 
 **Sourcetypes:**
 
@@ -39,3 +36,43 @@
 
 * This release requires pfsense to send data in syslog format
 * Adjust pfsense sed replacements to remove duplicate timestamps / or set `no_appending_timestamp = true` in inputs.conf for udp input
+
+## Using this Technology Add-on
+
+* The add-on has to be installed on Search Heads
+* If data is collected through Intermediate Heavy Forwarders, it has to be installed on Heavy Forwarders, otherwise on indexers
+* The add-on expects an initial sourcetype named `pfsense`, the sourcetype will be transformed into more specific ones (see sourcetype list)
+* A sample `inputs.conf` is provided (`default/inputs.conf.sample`)
+
+## Compatibility
+
+* Compatible with pfsense 2.5.0 or higher
+
+## Release Notes
+
+* **2.5.0 / 2021-03-03** mbo
+
+  * Support new filterlog format
+  * Added device extraction to DHCP Events
+
+* **2.0.0 / 2015-03-10** mbo
+
+  * First release to support new logformat
+  * License Update to Apache
+
+* **2.1.0 / 2017-05-17** mbo
+
+  * Basic Nginx Support
+  * Basic Unbound Support
+
+* **2.2.0 / 2019-09-22** mbo
+
+  * Additional support for pfsense =>2.4.0
+
+## Change Log
+
+* **2.2.0 / 2019-09-22** mbo
+
+  * Additional Extracts for igmp and hbh
+  * Fixed some timestamp stripping issues
+  * Rebuild Build Process
