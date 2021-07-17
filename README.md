@@ -1,10 +1,10 @@
 # Technology Add-on for pfsense
 
-**Author:** Datapunctum GmbH
+**Author:** Barakat A. B. Abweh
 
 **Version:**
 
-* 2.5.0
+* 2.0.0
 
 **Supported products:**
 
@@ -22,10 +22,13 @@
 **Sourcetypes:**
 
 * `pfsense:filterlog`
+* * `pfsense:filterdns`
 * `pfsense:dhcpd`
 * `pfsense:openvpn`
 * `pfsense:nginx`
 * `pfsense:unbound`
+* `pfsense:snort`
+* `pfsense:suricata`
 * `pfsense:*`
 
 **Add-on contains:**
@@ -39,7 +42,7 @@
 
 ## Using this Technology Add-on
 
-* The add-on has to be installed on Search Heads
+* The add-on has to be installed on both indexers & Search Heads
 * If data is collected through Intermediate Heavy Forwarders, it has to be installed on Heavy Forwarders, otherwise on indexers
 * The add-on expects an initial sourcetype named `pfsense`, the sourcetype will be transformed into more specific ones (see sourcetype list)
 * A sample `inputs.conf` is provided (`default/inputs.conf.sample`)
@@ -50,29 +53,4 @@
 
 ## Release Notes
 
-* **2.5.0 / 2021-03-03** mbo
-
-  * Support new filterlog format
-  * Added device extraction to DHCP Events
-
-* **2.0.0 / 2015-03-10** mbo
-
-  * First release to support new logformat
-  * License Update to Apache
-
-* **2.1.0 / 2017-05-17** mbo
-
-  * Basic Nginx Support
-  * Basic Unbound Support
-
-* **2.2.0 / 2019-09-22** mbo
-
-  * Additional support for pfsense =>2.4.0
-
-## Change Log
-
-* **2.2.0 / 2019-09-22** mbo
-
-  * Additional Extracts for igmp and hbh
-  * Fixed some timestamp stripping issues
-  * Rebuild Build Process
+* **2.0.0 / 2021-07-18**
