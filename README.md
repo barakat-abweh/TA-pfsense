@@ -22,7 +22,7 @@
 **Sourcetypes:**
 
 * `pfsense:filterlog`
-* * `pfsense:filterdns`
+* `pfsense:filterdns`
 * `pfsense:dhcpd`
 * `pfsense:openvpn`
 * `pfsense:nginx`
