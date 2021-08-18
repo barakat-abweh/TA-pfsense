@@ -290,3 +290,7 @@ modtime = 1624690529.929534000
 [props/pfsense%3Asnort/LOOKUP-pfsense_snort_severity]
 version = 8.2.1
 modtime = 1624907220.947233000
+
+[props/pfsense%3Afilterlog/LOOKUP-filterlog_app]
+version = 8.2.1
+modtime = 1629255992.116885000
