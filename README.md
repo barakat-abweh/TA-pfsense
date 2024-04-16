@@ -1,10 +1,11 @@
 # Technology Add-on for pfsense
 
-**Author:** Barakat A. B. Abweh
+**Original Author:** Barakat A. B. Abweh
+**Updated by:**  W. Scott Howard
 
 **Version:**
 
-* 2.0.0
+* 2.1.0
 
 **Supported products:**
 
@@ -49,7 +50,7 @@
 
 ## Compatibility
 
-* Compatible with pfsense 2.5.0 or higher
+* Compatible with pfsense 23.09.01 or higher  (Not tested on older versions)
 
 ## Release Notes
 
