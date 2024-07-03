@@ -1,0 +1,9 @@
+vendor_action,action
+DHCP4_LEASE_ALLOC,added
+DHCP4_RELEASE,blocked
+DHCP6_LEASE_ALLOC,added
+DHCP6_PD_LEASE_ALLOC,added
+DHCP6_RELEASE_NA,blocked
+DHCP6_RELEASE_PD,blocked
+DHCP4_INIT_REBOOT,renewed
+DHCP6_INIT_REBOOT,renewed
