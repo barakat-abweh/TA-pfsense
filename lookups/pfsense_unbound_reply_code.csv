@@ -1,0 +1,5 @@
+reply_code,reply_code_id
+NoError,0
+FormErr,1
+ServFail,2
+NXDomain,3
