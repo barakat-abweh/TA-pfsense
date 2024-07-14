@@ -1,11 +1,5 @@
 reply_code,vendor_reply_code_id,,,,,
-No Error,0,,,,,
-Format Error,1,,,,,
-Server Fail,2,,,,,
-NX Domain,3,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+NOERRO,0
+FORMATERROR,1
+SERVFAIL,2
+NXDOMAIN,3
