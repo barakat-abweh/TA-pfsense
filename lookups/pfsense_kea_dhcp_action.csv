@@ -1,6 +1,7 @@
 vendor_action,action
 DHCP4_LEASE_ALLOC,added
 DHCP4_RELEASE,blocked
+DHCP4_RELEASE_EXPIRED,blocked
 DHCP6_LEASE_ALLOC,added
 DHCP6_PD_LEASE_ALLOC,added
 DHCP6_RELEASE_NA,blocked
