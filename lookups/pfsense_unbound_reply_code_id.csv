@@ -1,5 +1,0 @@
-reply_code,vendor_reply_code_id,,,,,
-NOERRO,0
-FORMATERROR,1
-SERVFAIL,2
-NXDOMAIN,3
