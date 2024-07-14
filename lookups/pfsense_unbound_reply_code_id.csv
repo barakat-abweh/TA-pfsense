@@ -1,5 +1,0 @@
-reply_code,known_reply_code_id
-NoError,0
-FormErr,1
-ServFail,2
-NXDomain,3
