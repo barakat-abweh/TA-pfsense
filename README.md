@@ -25,6 +25,7 @@
 * `pfsense:filterlog`
 * `pfsense:filterdns`
 * `pfsense:dhcpd`
+* `pfsense:kea-dhcp4`
 * `pfsense:openvpn`
 * `pfsense:nginx`
 * `pfsense:unbound`
