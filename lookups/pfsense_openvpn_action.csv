@@ -1,3 +1,11 @@
 vendor_action,action
-"authenticated",success
-"could not authenticate.",failure
+authenticated,started
+connection established,started
+disconnected,ended
+Connection reset,started
+connected,started
+connecting,started
+pool returned,started
+could not authenticate,blocked
+Peer Connection Initiated,started
+Inactivity timeout,ended
