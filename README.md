@@ -48,6 +48,7 @@
 * If data is collected through Intermediate Heavy Forwarders, it has to be installed on Heavy Forwarders, otherwise on indexers
 * The add-on expects an initial sourcetype named `pfsense`, the sourcetype will be transformed into more specific ones (see sourcetype list)
 * A sample `inputs.conf` is provided (`default/inputs.conf.sample`)
+* Another way to ingest the logs is to send them to a syslog server and then send them using the universal forwarder with the sourcetype `pfsense`
 
 ## Compatibility
 
