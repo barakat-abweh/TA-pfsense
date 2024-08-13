@@ -49,6 +49,13 @@
 * The add-on expects an initial sourcetype named `pfsense`, the sourcetype will be transformed into more specific ones (see sourcetype list)
 * A sample `inputs.conf` is provided (`default/inputs.conf.sample`)
 * Another way to ingest the logs is to send them to a syslog server and then send them using the universal forwarder with the sourcetype `pfsense`
+* Use syslog-ng package to send pfblockerng-devel logs to splunk
+![image](https://github.com/user-attachments/assets/fce5fb20-d2f5-47a9-be07-30e7e354a5ae)
+![image](https://github.com/user-attachments/assets/63c32996-d5bf-4cc7-b384-bcd9d4a1347e)
+![image](https://github.com/user-attachments/assets/c4ddd605-6f05-479f-8c73-aeaa2849c9f1)
+![image](https://github.com/user-attachments/assets/da246111-4c51-4699-8f7f-2738d31f39b2)
+![image](https://github.com/user-attachments/assets/8b23fea8-1929-4dbe-8313-f757bca55e5e)
+![image](https://github.com/user-attachments/assets/c1dc1c58-fa2e-4a03-8636-f626bf872147)
 
 ## Compatibility
 
