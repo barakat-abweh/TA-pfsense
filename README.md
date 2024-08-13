@@ -61,7 +61,10 @@
 
 ## IDS/IPS Action
 * Since IDS/IPS action is not found in snort's logs and also the action can be modified manually, I added a new lookup file to use for action based on the SID. So please make sure to update the lookup file based on your ruleset action
-* ![image](https://github.com/user-attachments/assets/e18cb64c-61bc-4ab2-bdfb-79b723274a40)
+  * sid,interface_name,interface_description,action
+  * xxx,lan(re0),lan,alert
+ 
+
 ## steps
 * Log in to your firewall
 * Go to Services->snort->interface and configure the IDS/IPS to work in inline mode
