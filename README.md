@@ -60,15 +60,15 @@
 * ![image](https://github.com/user-attachments/assets/c1dc1c58-fa2e-4a03-8636-f626bf872147)
 
 ## IDS/IPS Action
-* Since IDS/IPS action is not found in snort's logs and also the action can be modified manually, I added a new lookup file to use for action based on the SID. So please make sure to update the lookup file based on your ruleset action
+* Since IDS/IPS action is not found in snort's & suricata's logs and also the action can be modified manually, I added a new lookup file to use for action based on the SID. So please make sure to update the lookup file based on your ruleset action
   * sid,interface_name,interface_description,action
   * xxx,lan(re0),lan,alert
  
 
 ## steps
 * Log in to your firewall
-* Go to Services->snort->interface and configure the IDS/IPS to work in inline mode
-* Go to Services->snort->interface->interface_rules and modify the rules action based on your needs
+* Go to Services->snort/suricata->interface and configure the IDS/IPS to work in inline mode
+* Go to Services->snort/suricata->interface->interface_rules and modify the rules action based on your needs
 * After that update the lookup file to match the sid,action pairs and the lookup will automatically work
 * ![image](https://github.com/user-attachments/assets/a6e4939f-60a9-4de5-a9b2-967d53e4fe33)
   
