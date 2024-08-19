@@ -5,3 +5,11 @@ drop,blocked
 alert,allowed
 Error,error
 error,error
+Notice,error
+notice,error
+Warning,error
+warning,error
+Perf,error
+perf,error
+Info,error
+info,error
