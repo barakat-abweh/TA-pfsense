@@ -1,4 +1,7 @@
-sid,interface_name,interface_description,action
-2420,SERVERS(re3),SERVERS,alert
-53534,SERVERS(re3),SERVERS,drop
-900512344,SERVERS(re3),SERVERS,drop
+vendor_action,action
+Drop,blocked
+Alert,allowed
+drop,blocked
+alert,allowed
+Error,error
+error,error
